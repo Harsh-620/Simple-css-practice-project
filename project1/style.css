@@ -1,0 +1,91 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:gilroy;
+}
+html,body{
+    height:100%;
+    width:100%;
+
+}
+#main{
+    height:100%;
+    width:100%;
+    background-color: white;
+
+}
+#nav{
+    height:50px;
+    width:100%;
+    
+    display:flex; /*display alwys applied on children*/
+    align-items:center;
+    justify-content:space-between;
+    padding:0px 30px;
+}
+#nav-part1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:3px;/*elements ke bich me gap de dega jo sath me hain*/
+
+
+}
+#nav-part1 h3{
+    font-size:16px;
+    border:1.5px solid black;
+    padding:5px 10px;
+    border-radius:50px;
+}
+#nav-part1 i{
+    font-size:16px;
+    border:1.5px solid black;
+    padding:5px 10px;
+    border-radius:50px;
+}
+#nav button{
+    padding:5px 10px;
+    border-radius:50px;
+}
+#b2{
+    background-color:red;
+}
+#main>h1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    font-size:120px;
+    text-transform:uppercase;
+    /*Agar text two lines me a rahe hain and usko ek line me karna hai*/
+    width:100%;
+    text-align:center;
+
+
+}
+img{
+    height:400px;
+    width:300px;
+    object-fit:cover;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:20px;
+}
+#img2{
+    transform:translate(-50%,-50%) rotate(10deg);
+}
+#btm-left{
+    position:absolute;
+    top:95%;
+    left:10px;
+}
+#btm-right{
+    position:absolute;
+    top:95%;
+    left:90%;
+}
+
+
